@@ -207,7 +207,10 @@ class App {
     });
   }
 
- 
+ clear(){
+   localStorage.removeItem("workouts");
+   location.reload();
+ }
 }
 
 class Workout {
